@@ -1,0 +1,43 @@
+.item-flex-1{
+    background: chartreuse;
+    width: 60px;
+    height: 120px;
+    text-align: center;
+    margin: 3px;
+}
+.item-flex-2{
+
+background: khaki;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin: 3px;
+
+}
+.container{
+    max-width: 1180px;
+    max-height: 1180px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.item-flex-3{
+
+    background: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 3px;
+    flex-grow: 1;
+}
+.item-flex-4{
+    background: royalblue;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    margin: 3px;
+}
+body{
+
+}
